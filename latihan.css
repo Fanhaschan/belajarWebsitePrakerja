@@ -1,0 +1,35 @@
+/*rumus membuat kotak*/
+/* 1. Tinggi */
+/* 2. Lebar */
+/* 3. Warna / Border */
+
+.kotak {
+    1
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.warna2 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(20, 57, 220);
+}
+
+.warna3 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(207, 220, 20);
+}
+
+.lingkaran {
+    border-radius: 50%;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
